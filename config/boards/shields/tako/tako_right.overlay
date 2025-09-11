@@ -56,5 +56,5 @@
 };
 
 &spi0 {
-	cs-gpios = <&pro_micro 10 GPIO_ACTIVE_HIGH>;
+	cs-gpios = <<&gpio0 09 GPIO_ACTIVE_HIGH>;
 };
